@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "billing-platform-modernization",
+    "title": "Billing Platform Modernization",
+    "role": "Tech Lead",
+    "type": "client",
+    "date": "2025-11",
+    "description": "Led the migration of a monolithic billing system to event-driven microservices, cutting invoice processing time by 60% and enabling real-time reconciliation for a Fortune 500 insurance client.",
+    "tags": ["Java", "Spring Boot", "Kafka", "Microservices", "PostgreSQL"],
+    "image": "/images/project-billing.svg",
+    "links": {
+      "live": "",
+      "repo": ""
+    },
+    "featured": true
+  },
+  {
+    "slug": "idea-tracker",
+    "title": "Idea Tracker",
+    "role": "Solo Developer",
+    "type": "personal",
+    "date": "2025-06",
+    "description": "A minimalist Android app for capturing and organizing ideas on the go, built with Kotlin, Jetpack Compose, and Room. Published on the Google Play Store.",
+    "tags": ["Kotlin", "Jetpack Compose", "Room DB", "MVVM"],
+    "image": "/images/project-idea-tracker.svg",
+    "links": {
+      "live": "https://play.google.com/store/apps",
+      "repo": "https://github.com/example/idea-tracker"
+    },
+    "featured": true
+  },
+  {
+    "slug": "devkit-cli",
+    "title": "devkit-cli",
+    "role": "Maintainer",
+    "type": "open-source",
+    "date": "2025-02",
+    "description": "An open-source command-line toolkit that scaffolds linting, formatting, and CI configuration for new JavaScript projects in seconds.",
+    "tags": ["Node.js", "CLI", "Open Source", "DX"],
+    "image": "/images/project-devkit.svg",
+    "links": {
+      "live": "",
+      "repo": "https://github.com/example/devkit-cli"
+    },
+    "featured": false
+  }
+]

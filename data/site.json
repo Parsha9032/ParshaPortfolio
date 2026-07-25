@@ -1,0 +1,41 @@
+{
+  "name": "Jordan Avery",
+  "title": "Software Engineer",
+  "summary": "I build fast, accessible web and mobile products end to end.",
+  "location": "Austin, TX",
+  "email": "hello@jordanavery.dev",
+  "resumePdf": "/resume.pdf",
+  "resumeLastUpdated": "2026-07-01",
+  "social": {
+    "github": "https://github.com/jordanavery",
+    "linkedin": "https://www.linkedin.com/in/jordanavery",
+    "twitter": "https://twitter.com/jordanavery"
+  },
+  "bio": "I'm a software engineer who enjoys turning ambiguous problems into simple, reliable products. My background spans backend services, developer tooling, and native mobile apps, with a focus on performance and accessibility. Outside of work I mentor early-career engineers and contribute to a couple of small open-source tools.",
+  "skills": {
+    "technical": [
+      "JavaScript / TypeScript",
+      "React & Next.js",
+      "Node.js",
+      "Java & Spring Boot",
+      "Kotlin & Android (Jetpack Compose)",
+      "PostgreSQL",
+      "REST & GraphQL APIs",
+      "Docker",
+      "AWS",
+      "CI/CD (GitHub Actions)"
+    ],
+    "soft": [
+      "Technical leadership",
+      "Cross-team communication",
+      "Mentoring",
+      "Product-minded engineering",
+      "Written documentation"
+    ]
+  },
+  "analytics": {
+    "provider": "plausible",
+    "enabled": false,
+    "domain": "example.com"
+  }
+}
