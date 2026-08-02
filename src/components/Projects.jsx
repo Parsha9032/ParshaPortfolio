@@ -35,7 +35,7 @@ export default function Projects() {
       className="section scroll-mt-20 border-t border-ink-100 dark:border-ink-800"
     >
       <div className="container-page">
-        <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+        <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="eyebrow mb-3">Projects</p>
             <h2 className="font-display text-2xl font-semibold text-ink-900 sm:text-3xl dark:text-white">
@@ -55,7 +55,7 @@ export default function Projects() {
           </label>
         </div>
 
-        <div className="mt-6 flex flex-wrap items-center gap-2">
+        <div className="mt-4 flex flex-wrap items-center gap-2">
           {TYPE_FILTERS.map((type) => (
             <button
               key={type}
@@ -84,11 +84,11 @@ export default function Projects() {
         </div>
 
         {filtered.length === 0 ? (
-          <p className="mt-10 text-sm text-ink-500 dark:text-ink-400">
+          <p className="mt-6 text-sm text-ink-500 dark:text-ink-400">
             No projects match your filters. Try clearing search or tags.
           </p>
         ) : (
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((project) => (
               <ProjectCard key={project.slug} project={project} />
             ))}

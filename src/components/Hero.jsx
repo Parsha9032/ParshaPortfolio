@@ -3,30 +3,36 @@ import site from '../../data/site.json';
 
 export default function Hero() {
   return (
-    <section className="section pb-12 pt-14 sm:pt-20">
+    <section className="section pb-8 pt-10 sm:pt-14">
       <div className="container-page">
         <div className="max-w-3xl animate-fadeUp">
-          <p className="eyebrow mb-4">{site.location}</p>
-          <h1 className="font-display text-display-lg font-bold text-ink-900 dark:text-white">
+          <p className="eyebrow mb-3">{site.location}</p>
+          <h1 className="font-display text-4xl font-bold text-ink-900 sm:text-5xl dark:text-white">
             {site.name}
           </h1>
-          <p className="mt-3 font-display text-display-md font-medium text-ink-500 dark:text-ink-300">
+          <p className="mt-2 font-display text-xl font-medium text-ink-500 sm:text-2xl dark:text-ink-300">
             {site.title}
           </p>
-          <p className="mt-6 max-w-prose text-lg leading-relaxed text-ink-600 dark:text-ink-300">
+          <p className="mt-4 max-w-prose text-base leading-relaxed text-ink-600 sm:text-lg dark:text-ink-300">
             {site.summary}
           </p>
 
-          <div className="mt-9 flex flex-wrap items-center gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-2.5">
             <Link href="/resume" className="btn-primary">
               View Resume
             </Link>
-            <a href={site.resumePdf} className="btn-secondary" download>
+            <a
+              href={site.resumePdf}
+              className="btn-secondary"
+              download
+              target="_blank"
+              rel="noreferrer"
+            >
               Download PDF
             </a>
-            <a href="#contact" className="btn-secondary">
+            <Link href="/#contact" className="btn-secondary">
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
       </div>

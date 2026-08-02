@@ -1,36 +1,39 @@
 {
-  "name": "Jordan Avery",
-  "title": "Software Engineer",
-  "summary": "I build fast, accessible web and mobile products end to end.",
-  "location": "Austin, TX",
-  "email": "hello@jordanavery.dev",
+  "name": "Parsharamulu Mangol",
+  "title": "Java • SpringBoot • Microservices • GenAI",
+  "summary": "Results-driven Technical Lead with 8+ years of experience building scalable Java and Spring Boot systems in the Life & Health Insurance domain.",
+  "location": "Hyderabad, India",
+  "email": "parshcript9032@gmail.com",
+  "phone": "+91-9032831306",
   "resumePdf": "/resume.pdf",
-  "resumeLastUpdated": "2026-07-01",
+  "resumeLastUpdated": "2026-08-02",
   "social": {
-    "github": "https://github.com/jordanavery",
-    "linkedin": "https://www.linkedin.com/in/jordanavery",
-    "twitter": "https://twitter.com/jordanavery"
+    "github": "https://github.com/Parsha9032",
+    "linkedin": "https://www.linkedin.com/",
+    "twitter": "https://twitter.com/"
   },
-  "bio": "I'm a software engineer who enjoys turning ambiguous problems into simple, reliable products. My background spans backend services, developer tooling, and native mobile apps, with a focus on performance and accessibility. Outside of work I mentor early-career engineers and contribute to a couple of small open-source tools.",
+  "bio": "Technical Lead at HCLTech with 8+ years of experience delivering Java, Spring Boot, and microservices-based solutions for Life & Health Insurance platforms. I have led modernization of legacy systems, integrated GenAI-assisted development workflows, and mentored teams in Agile and Kanban environments.",
   "skills": {
     "technical": [
-      "JavaScript / TypeScript",
-      "React & Next.js",
-      "Node.js",
-      "Java & Spring Boot",
-      "Kotlin & Android (Jetpack Compose)",
-      "PostgreSQL",
-      "REST & GraphQL APIs",
+      "Java 17",
+      "Spring Boot",
+      "Microservices",
+      "Kafka",
+      "GenAI / GitHub Copilot",
+      "AWS Fundamentals",
+      "OpenShift",
       "Docker",
-      "AWS",
-      "CI/CD (GitHub Actions)"
+      "Angular",
+      "React",
+      "Mainframe modernization",
+      "ETL / DataStage"
     ],
     "soft": [
       "Technical leadership",
-      "Cross-team communication",
+      "Solution architecture",
       "Mentoring",
-      "Product-minded engineering",
-      "Written documentation"
+      "Agile delivery",
+      "Cross-functional collaboration"
     ]
   },
   "analytics": {

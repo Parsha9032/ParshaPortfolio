@@ -4,12 +4,13 @@
       "role": "Technical Lead",
       "org": "HCLTech",
       "location": "Hyderabad, India",
-      "start": "2023-01",
+      "start": "2024-04",
       "end": "Present",
       "highlights": [
-        "Lead a team delivering microservices for a Life & Health Insurance platform serving millions of policyholders.",
-        "Introduced GenAI-assisted code review workflows, reducing PR turnaround time by 30%.",
-        "Own architecture decisions for claims-processing services built on Java and Spring Boot."
+        "Leading design and delivery of 12 microservices for Life & Health Insurance systems using Java and Spring Boot.",
+        "Modernized 3 Mainframe modules and migrated 9 legacy systems into Java-based services for improved maintainability and performance.",
+        "Integrated GenAI tools such as GitHub Copilot and Claude AI to accelerate development and reduce boilerplate work.",
+        "Mentored a team of 4 engineers and independently resolved critical security vulnerabilities with no prior team knowledge of the fix approach."
       ]
     },
     {
@@ -17,42 +18,43 @@
       "org": "HCLTech",
       "location": "Mexico",
       "start": "2020-03",
-      "end": "2022-12",
+      "end": "2024-03",
       "highlights": [
-        "Designed and shipped core microservices supporting policy administration workflows.",
-        "Mentored three junior engineers through onboarding and their first production releases."
+        "Built Kafka-based event-driven microservices to capture real-time member updates and synchronize downstream systems.",
+        "Contributed to end-to-end feature implementation across the insurance platform in a 9-member team.",
+        "Worked on digital transformation, IT modernization, data management, and member experience UI initiatives."
       ]
     },
     {
       "role": "Software Engineer",
       "org": "HCLTech",
       "location": "Chennai, India",
-      "start": "2017-06",
+      "start": "2017-08",
       "end": "2020-02",
       "highlights": [
-        "Built and maintained REST APIs for insurance policy management systems.",
-        "Contributed to a company-wide migration from monolith to service-oriented architecture."
+        "Developed and maintained backend services for insurance policy processing and member workflows.",
+        "Contributed to ETL jobs generating XML data and loading into DB for business-critical integrations."
       ]
     }
   ],
   "achievements": [
     {
-      "title": "Spotlight Award",
+      "title": "Performance Excellence Award",
       "org": "HCLTech",
+      "date": "2026",
+      "description": "Recognized for sustained delivery excellence and top-tier performance across 8+ years at HCLTech."
+    },
+    {
+      "title": "Best Performer of the Year",
+      "org": "HCLTech",
+      "date": "2022",
+      "description": "Recognized for outstanding contribution and reliability in critical insurance transformation work."
+    },
+    {
+      "title": "Certified SAFe 6 Practitioner",
+      "org": "Scaled Agile",
       "date": "2024",
-      "description": "Recognized for leading the billing platform modernization initiative."
-    },
-    {
-      "title": "Published Android Developer",
-      "org": "Google Play Store",
-      "date": "2025",
-      "description": "Independently designed, built, and published multiple Android apps."
-    },
-    {
-      "title": "Oracle Certified Professional, Java SE",
-      "org": "Oracle",
-      "date": "2019",
-      "description": "Certification in core and advanced Java programming."
+      "description": "Certified in Scaled Agile Framework practices for delivery in Agile and Kanban environments."
     }
   ]
 }

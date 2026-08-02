@@ -6,14 +6,14 @@ export default function Experience() {
       id="experience"
       className="section scroll-mt-20 border-t border-ink-100 dark:border-ink-800"
     >
-      <div className="container-page grid gap-12 lg:grid-cols-[1.3fr_0.7fr]">
+      <div className="container-page grid gap-8 lg:grid-cols-[1.3fr_0.7fr]">
         <div>
           <p className="eyebrow mb-3">Experience</p>
           <h2 className="font-display text-2xl font-semibold text-ink-900 sm:text-3xl dark:text-white">
             Where I've worked
           </h2>
 
-          <ol className="mt-8 space-y-8 border-l border-ink-200 pl-6 dark:border-ink-700">
+          <ol className="mt-6 space-y-6 border-l border-ink-200 pl-6 dark:border-ink-700">
             {data.experience.map((job) => (
               <li key={`${job.role}-${job.start}`} className="relative">
                 <span

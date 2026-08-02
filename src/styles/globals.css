@@ -57,7 +57,7 @@
   }
 
   .section {
-    @apply py-16 sm:py-22;
+    @apply py-10 sm:py-14;
   }
 
   .eyebrow {

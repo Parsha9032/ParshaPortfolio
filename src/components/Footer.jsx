@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import site from '../../data/site.json';
 
 export default function Footer() {
@@ -10,15 +11,15 @@ export default function Footer() {
           © {year} {site.name}. All rights reserved.
         </p>
         <nav aria-label="Footer" className="flex items-center gap-5">
-          <a href="#about" className="hover:text-ink-800 dark:hover:text-ink-100">
+          <Link href="/#about" className="hover:text-ink-800 dark:hover:text-ink-100">
             About
-          </a>
-          <a href="#projects" className="hover:text-ink-800 dark:hover:text-ink-100">
+          </Link>
+          <Link href="/#projects" className="hover:text-ink-800 dark:hover:text-ink-100">
             Projects
-          </a>
-          <a href="#contact" className="hover:text-ink-800 dark:hover:text-ink-100">
+          </Link>
+          <Link href="/#contact" className="hover:text-ink-800 dark:hover:text-ink-100">
             Contact
-          </a>
+          </Link>
         </nav>
         <p>Last updated {site.resumeLastUpdated}</p>
       </div>

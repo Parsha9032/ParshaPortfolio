@@ -29,18 +29,18 @@ export default function Header() {
           href="/"
           className="font-display text-lg font-semibold tracking-tight text-ink-900 dark:text-white"
         >
-          {site.name}
+          Home
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((link) => (
-            <a
+            <Link
               key={link.href}
-              href={link.href}
+              href={link.href.startsWith('#') ? `/${link.href}` : link.href}
               className="text-sm font-medium text-ink-600 transition-colors hover:text-ink-900 dark:text-ink-300 dark:hover:text-white"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -87,18 +87,19 @@ export default function Header() {
           <ul className="flex flex-col gap-4">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
-                <a
-                  href={link.href}
+                <Link
+                  href={link.href.startsWith('#') ? `/${link.href}` : link.href}
                   onClick={() => setOpen(false)}
                   className="block text-base font-medium text-ink-700 dark:text-ink-200"
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
             <li>
               <Link
                 href="/resume"
+                onClick={() => setOpen(false)}
                 className="block text-base font-medium text-brand-600 dark:text-brand-300"
               >
                 Resume

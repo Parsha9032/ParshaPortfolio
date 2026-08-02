@@ -3,13 +3,13 @@ export default function ProjectCard({ project }) {
 
   return (
     <article className="card flex flex-col">
-      <div className="mb-4 overflow-hidden rounded-xl bg-ink-50 dark:bg-ink-800">
+      <div className="mb-3 overflow-hidden rounded-xl bg-ink-50 dark:bg-ink-800">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={image}
           alt=""
           loading="lazy"
-          className="h-40 w-full object-cover"
+          className="h-32 w-full object-cover"
           width={400}
           height={160}
         />
@@ -36,7 +36,7 @@ export default function ProjectCard({ project }) {
         ))}
       </ul>
 
-      <div className="mt-5 flex gap-3 text-sm font-semibold">
+      <div className="mt-4 flex gap-3 text-sm font-semibold">
         {links.live && (
           <a
             href={links.live}
