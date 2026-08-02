@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react';
 import projects from '../../data/projects.json';
 import ProjectCard from './ProjectCard';
 
-const TYPE_FILTERS = ['all', 'client', 'personal', 'open-source'];
+const TYPE_FILTERS = ['all', 'client', 'personal'];
+const EXTRA_TYPE_FILTERS = ['open-source'];
 
 export default function Projects() {
   const [query, setQuery] = useState('');
@@ -39,7 +40,7 @@ export default function Projects() {
           <div>
             <p className="eyebrow mb-3">Projects</p>
             <h2 className="font-display text-2xl font-semibold text-ink-900 sm:text-3xl dark:text-white">
-              Selected work
+              Recent work
             </h2>
           </div>
 
@@ -55,32 +56,48 @@ export default function Projects() {
           </label>
         </div>
 
-        <div className="mt-4 flex flex-wrap items-center gap-2">
-          {TYPE_FILTERS.map((type) => (
-            <button
-              key={type}
-              type="button"
-              onClick={() => setActiveType(type)}
-              aria-pressed={activeType === type}
-              className={`chip capitalize transition-colors ${
-                activeType === type ? 'chip-active' : ''
-              }`}
-            >
-              {type.replace('-', ' ')}
-            </button>
-          ))}
-          <span className="mx-1 h-4 w-px bg-ink-200 dark:bg-ink-700" aria-hidden="true" />
-          {allTags.map((tag) => (
-            <button
-              key={tag}
-              type="button"
-              onClick={() => setActiveTag(activeTag === tag ? null : tag)}
-              aria-pressed={activeTag === tag}
-              className={`chip transition-colors ${activeTag === tag ? 'chip-active' : ''}`}
-            >
-              {tag}
-            </button>
-          ))}
+        <div className="mt-4 flex flex-col gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            {TYPE_FILTERS.map((type) => (
+              <button
+                key={type}
+                type="button"
+                onClick={() => setActiveType(type)}
+                aria-pressed={activeType === type}
+                className={`chip capitalize transition-colors ${
+                  activeType === type ? 'chip-active' : ''
+                }`}
+              >
+                {type.replace('-', ' ')}
+              </button>
+            ))}
+            {EXTRA_TYPE_FILTERS.map((type) => (
+              <button
+                key={type}
+                type="button"
+                onClick={() => setActiveType(type)}
+                aria-pressed={activeType === type}
+                className={`chip capitalize transition-colors ${
+                  activeType === type ? 'chip-active' : ''
+                }`}
+              >
+                {type.replace('-', ' ')}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            {allTags.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => setActiveTag(activeTag === tag ? null : tag)}
+                aria-pressed={activeTag === tag}
+                className={`chip transition-colors ${activeTag === tag ? 'chip-active' : ''}`}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
         </div>
 
         {filtered.length === 0 ? (
@@ -88,7 +105,7 @@ export default function Projects() {
             No projects match your filters. Try clearing search or tags.
           </p>
         ) : (
-          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((project) => (
               <ProjectCard key={project.slug} project={project} />
             ))}

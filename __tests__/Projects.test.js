@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Projects from '../src/components/Projects';
 import ProjectCard from '../src/components/ProjectCard';
+import Home from '../src/pages/index';
 import projectsData from '../data/projects.json';
 
 describe('Projects', () => {
@@ -37,6 +38,13 @@ describe('Projects', () => {
     fireEvent.change(input, { target: { value: 'zzz-nonexistent-zzz' } });
 
     expect(screen.getByText(/no projects match/i)).toBeInTheDocument();
+  });
+
+  it('renders the projects section on the homepage', () => {
+    render(<Home />);
+
+    expect(screen.getByText('Projects')).toBeInTheDocument();
+    expect(screen.getByText('Value Ideas')).toBeInTheDocument();
   });
 
   it('does not render project images in the selected work cards', () => {

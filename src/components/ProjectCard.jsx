@@ -1,22 +1,19 @@
 export default function ProjectCard({ project }) {
-  const { title, role, type, date, description, tags, links } = project;
+  const { title, role, type, description, tags, links } = project;
 
   return (
-    <article className="card flex flex-col">
+    <article className="card flex flex-col p-4">
       <div className="mb-2 flex items-center justify-between gap-2">
         <span className="chip capitalize">{type.replace('-', ' ')}</span>
-        <time dateTime={date} className="text-xs text-ink-400 dark:text-ink-500">
-          {formatMonthYear(date)}
-        </time>
       </div>
 
-      <h3 className="font-display text-lg font-semibold text-ink-900 dark:text-white">{title}</h3>
-      <p className="mt-0.5 text-sm text-ink-500 dark:text-ink-400">{role}</p>
-      <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-600 dark:text-ink-300">
+      <h3 className="font-display text-base font-semibold text-ink-900 dark:text-white">{title}</h3>
+      <p className="mt-0.5 text-xs text-ink-500 dark:text-ink-400">{role}</p>
+      <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600 dark:text-ink-300">
         {description}
       </p>
 
-      <ul className="mt-4 flex flex-wrap gap-1.5">
+      <ul className="mt-3 flex flex-wrap gap-1.5">
         {tags.map((tag) => (
           <li key={tag} className="chip">
             {tag}
@@ -24,7 +21,7 @@ export default function ProjectCard({ project }) {
         ))}
       </ul>
 
-      <div className="mt-4 flex gap-3 text-sm font-semibold">
+      <div className="mt-3 flex gap-3 text-sm font-semibold">
         {links.live && (
           <a
             href={links.live}
@@ -48,10 +45,4 @@ export default function ProjectCard({ project }) {
       </div>
     </article>
   );
-}
-
-function formatMonthYear(value) {
-  const [year, month] = value.split('-');
-  const date = new Date(Number(year), Number(month) - 1);
-  return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }

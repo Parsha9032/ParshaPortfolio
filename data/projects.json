@@ -15,13 +15,13 @@
     "featured": true
   },
   {
-    "slug": "idea-tracker",
-    "title": "Idea Tracker",
+    "slug": "value-ideas",
+    "title": "Value Ideas",
     "role": "Solo Developer",
     "type": "personal",
     "date": "2025-06",
-    "description": "A minimalist Android app for capturing and organizing ideas on the go, built with Kotlin, Jetpack Compose, and Room. Published on the Google Play Store.",
-    "tags": ["Kotlin", "Jetpack Compose", "Room DB", "MVVM"],
+    "description": "Capture, organize, and track value ideas from inception through implementation progress, with milestone management. Published on the Google Play Store.",
+    "tags": ["Android", "Mobile", "Kotlin", "Jetpack Compose", "Room DB", "MVVM Architecture"],
     "image": "/images/project-idea-tracker.svg",
     "links": {
       "live": "https://play.google.com/store/apps/details?id=com.valueideas.app",
@@ -30,13 +30,58 @@
     "featured": true
   },
   {
-    "slug": "career-guidance-app",
-    "title": "Career Guidance App",
+    "slug": "future-steps",
+    "title": "Future Steps",
     "role": "Solo Developer",
     "type": "personal",
     "date": "2024-10",
-    "description": "Built an Android app to help parents and children explore career paths with structured guidance and planning tools.",
-    "tags": ["Android", "Kotlin", "Compose", "Mobile"],
+    "description": "A career guidance app helping parents and children explore career paths and plan future steps with structured guidance.",
+    "tags": ["Android", "Mobile", "Kotlin", "Jetpack Compose", "Room DB", "MVVM Architecture"],
+    "image": "/images/project-devkit.svg",
+    "links": {
+      "live": "",
+      "repo": ""
+    },
+    "featured": false
+  },
+  {
+    "slug": "javadevroadmap",
+    "title": "JavaDevRoadmap",
+    "role": "Solo Developer",
+    "type": "personal",
+    "date": "2024-08",
+    "description": "A step-by-step Java learning roadmap covering core to advanced topics for developers.",
+    "tags": ["Android", "Mobile", "Kotlin", "Jetpack Compose", "Room DB", "MVVM Architecture"],
+    "image": "/images/project-devkit.svg",
+    "links": {
+      "live": "",
+      "repo": ""
+    },
+    "featured": false
+  },
+  {
+    "slug": "event-family-function-planner",
+    "title": "Event & Family Function Planner",
+    "role": "Solo Developer",
+    "type": "personal",
+    "date": "2024-06",
+    "description": "A checklist-based planner for organizing family events, tracking preparation tasks, and monitoring progress.",
+    "tags": ["Android", "Mobile", "Kotlin", "Jetpack Compose", "Room DB", "MVVM Architecture"],
+    "image": "/images/project-devkit.svg",
+    "links": {
+      "live": "",
+      "repo": ""
+    },
+    "featured": false
+  },
+  {
+    "slug": "jebu",
+    "title": "Jebu",
+    "role": "Solo Developer",
+    "type": "personal",
+    "date": "2025-03",
+    "description": "A personal AI-powered money tracking app designed to help users track, visualize, and grow savings and investments.",
+    "tags": ["Android", "Mobile", "Kotlin", "Jetpack Compose", "Room DB", "MVVM Architecture"],
     "image": "/images/project-devkit.svg",
     "links": {
       "live": "",
