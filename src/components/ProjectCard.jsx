@@ -1,20 +1,8 @@
 export default function ProjectCard({ project }) {
-  const { title, role, type, date, description, tags, image, links } = project;
+  const { title, role, type, date, description, tags, links } = project;
 
   return (
     <article className="card flex flex-col">
-      <div className="mb-3 overflow-hidden rounded-xl bg-ink-50 dark:bg-ink-800">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={image}
-          alt=""
-          loading="lazy"
-          className="h-32 w-full object-cover"
-          width={400}
-          height={160}
-        />
-      </div>
-
       <div className="mb-2 flex items-center justify-between gap-2">
         <span className="chip capitalize">{type.replace('-', ' ')}</span>
         <time dateTime={date} className="text-xs text-ink-400 dark:text-ink-500">

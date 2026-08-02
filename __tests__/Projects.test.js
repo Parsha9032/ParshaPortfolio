@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Projects from '../src/components/Projects';
+import ProjectCard from '../src/components/ProjectCard';
 import projectsData from '../data/projects.json';
 
 describe('Projects', () => {
@@ -36,5 +37,11 @@ describe('Projects', () => {
     fireEvent.change(input, { target: { value: 'zzz-nonexistent-zzz' } });
 
     expect(screen.getByText(/no projects match/i)).toBeInTheDocument();
+  });
+
+  it('does not render project images in the selected work cards', () => {
+    render(<ProjectCard project={projectsData[0]} />);
+
+    expect(document.querySelector('img')).toBeNull();
   });
 });

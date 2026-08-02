@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import site from '../../data/site.json';
 
+const resumeUrl = (site.resumePdf || '/resume.pdf').startsWith('/')
+  ? `${process.env.BASE_PATH || ''}${site.resumePdf}`
+  : site.resumePdf;
+
 export default function Hero() {
   return (
     <section className="section pb-8 pt-10 sm:pt-14">
@@ -18,16 +22,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-6 flex flex-wrap items-center gap-2.5">
-            <Link href="/resume" className="btn-primary">
+            <Link href="/resume/" className="btn-primary">
               View Resume
             </Link>
-            <a
-              href={site.resumePdf}
-              className="btn-secondary"
-              download
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={resumeUrl} className="btn-secondary" download target="_blank" rel="noreferrer">
               Download PDF
             </a>
             <Link href="/#contact" className="btn-secondary">

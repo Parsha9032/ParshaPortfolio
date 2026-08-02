@@ -45,7 +45,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link href="/resume" className="btn-secondary hidden sm:inline-flex">
+          <Link href="/resume/" className="btn-secondary hidden sm:inline-flex">
             Resume
           </Link>
           <ThemeToggle />
@@ -98,7 +98,7 @@ export default function Header() {
             ))}
             <li>
               <Link
-                href="/resume"
+                href="/resume/"
                 onClick={() => setOpen(false)}
                 className="block text-base font-medium text-brand-600 dark:text-brand-300"
               >

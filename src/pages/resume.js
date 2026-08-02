@@ -3,10 +3,14 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import site from '../../data/site.json';
 
+const resumeUrl = (site.resumePdf || '/resume.pdf').startsWith('/')
+  ? `${process.env.BASE_PATH || ''}${site.resumePdf}`
+  : site.resumePdf;
+
 export default function Resume() {
   return (
     <>
-      <Seo title={`${site.name} — Resume`} path="/resume" />
+      <Seo title={`${site.name} — Resume`} path="/resume/" />
 
       <div className="print:hidden">
         <Header />
@@ -25,10 +29,10 @@ export default function Resume() {
             </div>
 
             <div className="flex flex-wrap gap-3">
-              <a href={site.resumePdf} target="_blank" rel="noreferrer" className="btn-secondary">
+              <a href={resumeUrl} target="_blank" rel="noreferrer" className="btn-secondary">
                 Open PDF
               </a>
-              <a href={site.resumePdf} download className="btn-primary">
+              <a href={resumeUrl} download className="btn-primary">
                 Download PDF
               </a>
             </div>
@@ -36,7 +40,7 @@ export default function Resume() {
 
           <div className="overflow-hidden rounded-xl border border-ink-200 bg-ink-50 dark:border-ink-800 dark:bg-ink-950">
             <iframe
-              src={site.resumePdf}
+              src={resumeUrl}
               title={`${site.name} resume`}
               className="min-h-[75vh] w-full"
               loading="lazy"

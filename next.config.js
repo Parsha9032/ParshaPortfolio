@@ -12,6 +12,9 @@ const nextConfig = {
   trailingSlash: true,
   basePath,
   assetPrefix,
+  env: {
+    BASE_PATH: basePath,
+  },
   images: {
     // next/image's default optimizer requires a server; disable it for
     // static export and rely on properly-sized source assets instead.
