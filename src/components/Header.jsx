@@ -4,9 +4,9 @@ import site from '../../data/site.json';
 import ThemeToggle from './ThemeToggle';
 
 const NAV_LINKS = [
-  { href: '#about', label: 'About' },
+  // { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
-  { href: '#experience', label: 'Experience' },
+  // { href: '#experience', label: 'Experience' },
   { href: '#contact', label: 'Contact' },
 ];
 
