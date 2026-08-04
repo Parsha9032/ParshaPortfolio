@@ -1,6 +1,21 @@
 import Link from 'next/link';
 import site from '../../data/site.json';
 
+const lastUpdated = process.env.NEXT_PUBLIC_LAST_UPDATED || site.resumeLastUpdated;
+
+function formatDate(dateString) {
+  try {
+    const date = new Date(dateString);
+    return new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: '2-digit',
+    }).format(date);
+  } catch (error) {
+    return dateString;
+  }
+}
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -21,7 +36,7 @@ export default function Footer() {
             Contact
           </Link>
         </nav>
-        <p>Last updated {site.resumeLastUpdated}</p>
+        <p>Last updated: {formatDate(lastUpdated)}</p>
       </div>
     </footer>
   );
