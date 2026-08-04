@@ -6,7 +6,15 @@
     "type": "client",
     "date": "2024-04",
     "description": "Led end-to-end modernization of core insurance processing systems by replacing legacy workflows with scalable Java and Spring Boot microservices for a long-term client.",
-    "tags": ["Java", "Spring Boot", "Kafka", "Microservices", "Java Batch", "Openshift", "Insurance"],
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "Microservices",
+      "Java Batch",
+      "Openshift",
+      "Insurance"
+    ],
     "image": "/images/project-billing.svg",
     "links": {
       "live": "",
