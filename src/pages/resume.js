@@ -33,7 +33,7 @@ export default function Resume() {
                 Open PDF
               </a>
               <a href={resumeUrl} download className="btn-primary">
-                Download PDF
+                Download resume
               </a>
             </div>
           </div>

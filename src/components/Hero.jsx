@@ -26,10 +26,13 @@ export default function Hero() {
               View Resume
             </Link>
             <a href={resumeUrl} className="btn-secondary" download target="_blank" rel="noreferrer">
-              Download PDF
+              Download resume
             </a>
             <Link href="/#contact" className="btn-secondary">
               Contact Me
+            </Link>
+            <Link href="/#projects" className="btn-secondary">
+              Projects
             </Link>
           </div>
         </div>
