@@ -1,7 +1,7 @@
 {
   "name": "Parsharamulu Mangol",
   "title": "Java • SpringBoot • Microservices • GenAI",
-  "summary": "Results-driven Technical Lead with 8+ years of experience building scalable Java and Spring Boot systems in the Life & Health Insurance domain.",
+  "summary": "Technical Lead specializing in Java, Spring Boot, microservices, and GenAI solutions for the Life & Health Insurance domain.",
   "location": "Hyderabad, India",
   "email": "parshcript9032@gmail.com",
   "phone": "+91-9032831306",
@@ -9,22 +9,30 @@
   "resumeLastUpdated": "2026-08-02",
   "social": {
     "github": "https://github.com/Parsha9032",
-    "linkedin": "https://www.linkedin.com/",
-    "twitter": "https://twitter.com/"
+    "linkedin": "https://www.linkedin.com/in/parsharamulu-mangol-a753683aa/",
+    "x": "https://x.com/Parshu9032"
   },
-  "bio": "Technical Lead at HCLTech with 8+ years of experience delivering Java, Spring Boot, and microservices-based solutions for Life & Health Insurance platforms. I have led modernization of legacy systems, integrated GenAI-assisted development workflows, and mentored teams in Agile and Kanban environments.",
+  "bio": "Technical Lead at HCLTech with 9+ years of experience designing Java, Spring Boot, and microservices solutions for Life & Health Insurance platforms. I have led 12 microservices, modernized 3 mainframe modules, migrated 9 legacy systems, and built practical GenAI workflows using Claude, OpenAI, Gemini, and MCP servers to improve engineering delivery.",
   "skills": {
     "technical": [
       "Java 17",
       "Spring Boot",
+      "Spring Batch",
+      "Java Batch (JSR-352)",
       "Microservices",
       "Kafka",
-      "GenAI / GitHub Copilot",
+      "SQL / Oracle",
+      "GenAI / Claude / OpenAI / Gemini",
+      "MCP Servers",
+      "AI / ML / DL",
+      "GCP Fundamentals",
       "AWS Fundamentals",
       "OpenShift",
       "Docker",
       "Angular",
       "React",
+      "HTML / CSS / JavaScript",
+      "COBOL / JCL / DB2",
       "Mainframe modernization",
       "ETL / DataStage"
     ],
