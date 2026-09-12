@@ -42,19 +42,116 @@
       "title": "Performance Excellence Award",
       "org": "HCLTech",
       "date": "2026",
-      "description": "Recognized for sustained delivery excellence and top-tier performance across 8+ years at HCLTech."
+      "category": "Award",
+      "featured": true,
+      "description": "Recognized for outstanding contribution, delivery excellence, and sustained top-tier performance across an 8-year tenure at HCLTech."
     },
     {
       "title": "Best Performer of the Year",
       "org": "HCLTech",
       "date": "2022",
-      "description": "Recognized for outstanding contribution and reliability in critical insurance transformation work."
+      "category": "Award",
+      "featured": true,
+      "description": "Recognized for outstanding contribution and dependable delivery in critical insurance transformation work; consistently ranked in the top performance tiers."
     },
     {
       "title": "Certified SAFe 6 Practitioner",
       "org": "Scaled Agile",
-      "date": "2024",
-      "description": "Certified in Scaled Agile Framework practices for delivery in Agile and Kanban environments."
+      "date": "Credential",
+      "category": "Certification",
+      "description": "Certified in Scaled Agile Framework methodologies for delivery across Agile and Kanban environments."
+    },
+    {
+      "title": "AWS Certified AI Practitioner",
+      "org": "Amazon Web Services",
+      "date": "Badge",
+      "category": "Certification",
+      "description": "AI-focused AWS certification badge demonstrating foundational understanding of artificial intelligence and cloud concepts.",
+      "links": [
+        {
+          "label": "AWS verification",
+          "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/aa181d4efa2d441e8e64bc0ea216dda2"
+        },
+        {
+          "label": "Credly badge",
+          "url": "https://www.credly.com/badges/293ab4d5-26b5-4a16-95f8-16666c9d744a"
+        }
+      ]
+    },
+    {
+      "title": "Google Cloud Fundamentals: Core Infrastructure",
+      "org": "Coursera in collaboration with Google Cloud",
+      "date": "Certificate",
+      "category": "Certification",
+      "description": "Completed foundational training in Google Cloud infrastructure and core cloud concepts.",
+      "links": [
+        {
+          "label": "View certificate",
+          "url": "https://coursera.org/account/accomplishments/verify/DNFQTVVV3QT4"
+        }
+      ]
+    },
+    {
+      "title": "Google Cloud & AI Skills",
+      "org": "Google Cloud",
+      "date": "Badges",
+      "category": "Certification",
+      "description": "Earned skills badges covering Google Cloud and AI learning paths.",
+      "links": [
+        {
+          "label": "View public profile",
+          "url": "https://www.skills.google/public_profiles/69d854fd-0c53-4c43-96db-81e62b1fd5d5"
+        }
+      ]
+    },
+    {
+      "title": "Technical Training Certifications",
+      "org": "ProgrammingHub",
+      "date": "Certificates",
+      "category": "Certification",
+      "description": "Completed technical certifications in Java, HTML, JavaScript, Python, and AWS cloud computing.",
+      "links": [
+        {
+          "label": "Java certificate",
+          "url": "https://storage.googleapis.com/programminghub/certificate%2F1607494383648.pdf"
+        },
+        {
+          "label": "HTML certificate",
+          "url": "https://storage.googleapis.com/programminghub/certificate%2F1597575681172.jpg"
+        },
+        {
+          "label": "JavaScript certificate",
+          "url": "https://storage.googleapis.com/programminghub/certificate%2F1679198133904.jpg"
+        },
+        {
+          "label": "Python certificate",
+          "url": "https://storage.googleapis.com/programminghub/certificate%2F1633509794556.jpg"
+        },
+        {
+          "label": "AWS Cloud certificate",
+          "url": "https://storage.googleapis.com/programminghub/certificate%2F1711214550694.jpg"
+        }
+      ]
+    },
+    {
+      "title": "SkillSoft Training Portfolio",
+      "org": "SkillSoft",
+      "date": "Multiple courses",
+      "category": "Professional development",
+      "description": "Completed multiple professional training courses to continuously strengthen technical and delivery capabilities.",
+      "links": [
+        {
+          "label": "View digital badges",
+          "url": "https://skillsoft.digitalbadges.skillsoft.com/profile/mangolparsharamulu438792/wallet"
+        }
+      ]
+    },
+    {
+      "title": "GenAI Agent Solutions",
+      "org": "Applied engineering initiatives",
+      "date": "Ongoing",
+      "category": "Applied AI",
+      "description": "Built practical GenAI workflows with Claude, OpenAI, Gemini, and MCP servers; created specialized agents for security vulnerability fixes, code quality and standards, Jira analysis, and technical documentation."
     }
   ]
 }

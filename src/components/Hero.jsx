@@ -21,18 +21,27 @@ export default function Hero() {
             {site.summary}
           </p>
 
-          <div className="mt-6 flex flex-wrap items-center gap-2.5">
-            <Link href="/resume/" className="btn-primary">
+          <div className="mt-6 flex flex-nowrap items-center gap-2.5 overflow-x-auto pb-1">
+            <Link href="/resume/" className="btn-primary shrink-0 whitespace-nowrap">
               View Resume
             </Link>
-            <a href={resumeUrl} className="btn-secondary" download target="_blank" rel="noreferrer">
+            <a
+              href={resumeUrl}
+              className="btn-secondary shrink-0 whitespace-nowrap"
+              download
+              target="_blank"
+              rel="noreferrer"
+            >
               Download resume
             </a>
-            <Link href="/#contact" className="btn-secondary">
+            <Link href="/#contact" className="btn-secondary shrink-0 whitespace-nowrap">
               Contact Me
             </Link>
-            <Link href="/#projects" className="btn-secondary">
+            <Link href="/#projects" className="btn-secondary shrink-0 whitespace-nowrap">
               Projects
+            </Link>
+            <Link href="/#achievements" className="btn-secondary shrink-0 whitespace-nowrap">
+              Achievements & Certifications
             </Link>
           </div>
         </div>

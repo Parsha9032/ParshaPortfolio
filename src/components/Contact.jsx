@@ -3,7 +3,7 @@ import site from '../../data/site.json';
 const SOCIAL_LINKS = [
   { key: 'github', label: 'GitHub' },
   { key: 'linkedin', label: 'LinkedIn' },
-  { key: 'twitter', label: 'Twitter' },
+  { key: 'x', label: 'X.com' },
 ];
 
 export default function Contact() {
