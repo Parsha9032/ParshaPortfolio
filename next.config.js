@@ -41,9 +41,6 @@ const nextConfig = {
     // static export and rely on properly-sized source assets instead.
     unoptimized: true,
   },
-  eslint: {
-    dirs: ['src', 'scripts', '__tests__'],
-  },
 };
 
 module.exports = nextConfig;

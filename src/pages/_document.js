@@ -19,7 +19,6 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#12151a" />
-        {/* eslint-disable-next-line react/no-danger */}
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </Head>
       <body>
