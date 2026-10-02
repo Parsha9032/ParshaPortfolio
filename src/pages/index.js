@@ -1,4 +1,5 @@
 import Seo from '../components/Seo';
+import Snowfall from '../components/Snowfall';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
       <Seo path="/" />
+      <Snowfall />
       <a href="#main-content" className="skip-link">
         Skip to main content
       </a>
